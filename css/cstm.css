@@ -1,0 +1,79 @@
+p {
+    text-align: center;
+    margin: 17px 0px 0px 0px;
+}
+
+
+.d-flex.align-items-center.justify-content-center.bg-sl-primary.ht-100v {
+    background: url(../img/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -250px;
+}
+
+.login-wrapper.wd-300.wd-xs-350.pd-25.pd-xs-40.bg-white.log-cstm {
+    height: 75vh;
+    padding-top: 27px;
+    border-radius: 16px 0px 18px 0px;
+}
+
+.cstm-title{
+    
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+
+}
+
+input.form-control {
+    border-radius: 26px;
+    text-align: center;
+    box-shadow: 1px 2px 5px #00000096;
+}
+
+button.btn.btn-info.btn-block {
+    background: #008aff;
+    padding: 11px 0px;
+    width: 152px;
+    border-radius: 39px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 auto;
+    box-shadow: 1px 2px 6px #000000ba;
+}
+
+button.btn.btn-info.btn-block:hover{
+    background: blue;
+}
+
+a.btn.btn-success.btn-block {
+    width: 194px;
+    border-radius: 41px;
+    background: #7000FF;
+    font-weight: 500;
+    margin: 0 auto;
+    box-shadow: 2px 2px 3px #00000087;
+}
+
+
+/*REGISTER*/
+
+.login-wrapper.wd-300.wd-xs-350.pd-25.pd-xs-40.bg-white {
+
+ height: 100vh;
+ padding-top: 5px;
+ border-radius: 16px 0px 18px 0px;
+}
+
+
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+/*NAV*/
+
+nav.navbar.navbar-expand-lg.justify-content-between.cstm-nav{
+    background: linear-gradient(138deg, #de0000, #5800d3);
+}
+

@@ -1,0 +1,98 @@
+body {
+    background: #f1f1ffe3;
+}
+
+nav.navbar.navbar-expand-lg.justify-content-between.cstm-nav{
+    background: linear-gradient(138deg, #de0000, #5800d3);
+}
+
+a.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    border-right: 3px solid white;
+    padding-right: 13px;
+}
+
+a.nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+a.nav-link:hover{
+    background: white;
+    color: black;
+    border-radius: 28px;
+    margin-inline: 10px;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    background: white;
+    color: black;
+    border-radius: 25px;
+}
+
+/*nav ends*/
+
+
+h3 {
+    font-size: 30px;
+    font-weight: 800;
+        text-decoration: underline;
+}
+
+.headstart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+}
+.addfood{
+    background: #ff004b;
+}
+
+
+h5.card-title.text-center {
+    text-transform: capitalize;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    border: 1px solid #2a2a2a;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+/*add food post*/
+
+label.form-control-label {
+    font-weight: 600;
+    font-size: 20px;
+    font-variant: all-small-caps;
+    display: inline-block;
+    background: linear-gradient(138deg, #de000005, #5800d359);
+    padding: 0px 89px 0px 75px;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 0px 7px 0px 7px;
+}
+
+
+/*food post view*/
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    object-fit: cover;
+    height: 16vw;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-around;
+}
